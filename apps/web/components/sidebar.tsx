@@ -17,8 +17,8 @@ import {
 
 const routes = [
   {
-    label: label: "Tableau de bord"
-    icon: LayoutDashboard,
+    label: "Tableau de bord",    
+    icon: LayoutDashboard,    
     href: "/dashboard",
   },
   {
