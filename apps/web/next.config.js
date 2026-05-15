@@ -3,12 +3,7 @@ const nextConfig = {
   // Enable React Strict Mode for better development warnings
   reactStrictMode: true,
 
-  // Experimental features
-  experimental: {
-    // Enable server actions
-    serverActions: true,
-  },
-
+  
   // Image optimization
   images: {
     domains: [
