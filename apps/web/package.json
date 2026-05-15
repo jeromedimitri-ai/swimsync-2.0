@@ -55,7 +55,8 @@
     "postcss": "^8.4.38",
     "autoprefixer": "^10.4.19",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.6.1",
+    "prettier-plugin-tailwin
+        "tailwindcss-animate": "^1.0.7",dcss": "^0.6.1",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
     "prisma": "^5.14.0",
