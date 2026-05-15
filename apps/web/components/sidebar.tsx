@@ -17,7 +17,7 @@ import {
 
 const routes = [
   {
-    label: "Dashboard",
+    label: label: "Tableau de bord"
     icon: LayoutDashboard,
     href: "/dashboard",
   },
@@ -32,7 +32,7 @@ const routes = [
     href: "/coachs",
   },
   {
-    label: "Groupes",
+    label: label: "Groupes"
     icon: Users,
     href: "/groupes",
   },
