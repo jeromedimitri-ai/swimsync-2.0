@@ -264,3 +264,66 @@ Propriétaire — CN Avignon © 2025-2026
 ---
 
 **SwimSync 2.0** — Développé avec ❤️ pour CN Avignon
+
+
+## 🚀 Démarrage Rapide
+
+### Prérequis
+
+- Node.js 20+
+- Docker & Docker Compose
+- npm ou yarn
+
+### Installation
+
+1. **Cloner le repository**
+   ```bash
+   git clone https://github.com/jeromedimitri-ai/swimsync-2.0.git
+   cd swimsync-2.0
+   ```
+
+2. **Démarrer PostgreSQL avec Docker**
+   ```bash
+   docker-compose up -d
+   ```
+
+3. **Installer les dépendances**
+   ```bash
+   cd apps/web
+   npm install
+   ```
+
+4. **Configuration environnement**
+   - Le fichier `.env` est déjà créé avec les valeurs par défaut
+   - Modifier si nécessaire DATABASE_URL et NEXTAUTH_SECRET
+
+5. **Initialiser la base de données**
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
+
+6. **Lancer l'application**
+   ```bash
+   npm run dev
+   ```
+
+7. **Ouvrir dans le navigateur**
+   - Accéder à http://localhost:3000
+
+### Scripts disponibles
+
+```bash
+npm run dev          # Lancer en développement
+npm run build        # Build production
+npm run start        # Lancer en production
+npm run lint         # Linter ESLint
+npm run type-check   # Vérification TypeScript
+```
+
+### Seed données initiales (optionnel)
+
+```bash
+# Les données de test sont dans lib/data/
+node prisma/seed.js  # À créer si besoin
+```
