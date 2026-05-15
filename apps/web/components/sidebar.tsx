@@ -32,7 +32,7 @@ const routes = [
     href: "/coachs",
   },
   {
-    label: label: "Groupes"
+    label: "Groupes",    
     icon: Users,
     href: "/groupes",
   },
