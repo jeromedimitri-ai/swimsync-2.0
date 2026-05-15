@@ -17,42 +17,42 @@ export default function HomePage() {
 
           {/* Features Grid */}
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">📅 Planning</h3>
               <p className="text-sm text-muted-foreground">
                 Visualisation jour/semaine/mois des créneaux sur 5 bassins
               </p>
             </div>
 
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">👥 Coaches</h3>
               <p className="text-sm text-muted-foreground">
                 Gestion de 9 coaches avec diplômes et disponibilités
               </p>
             </div>
 
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">🏊 Groupes</h3>
               <p className="text-sm text-muted-foreground">
                 10 groupes EN1-EN4, Junior, Senior avec niveaux
               </p>
             </div>
 
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">❌ Absences</h3>
               <p className="text-sm text-muted-foreground">
                 Gestion des congés, maladies, formations Zone B
               </p>
             </div>
 
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">🔄 Remplacements</h3>
               <p className="text-sm text-muted-foreground">
-                Affectation automatique et manuelle des remplacants
+                Affectation automatique et manuelle des remplaçants
               </p>
             </div>
 
-            <div className="creneau-card">
+            <div className="rounded-lg border border-border bg-card p-6 text-card-foreground shadow-sm">
               <h3 className="mb-2 text-lg font-semibold">💰 Paie</h3>
               <p className="text-sm text-muted-foreground">
                 Calcul heures réalisées et export pour comptabilité
