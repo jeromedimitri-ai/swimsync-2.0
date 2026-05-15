@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="fr" suppressHydrationWarning>
       <body className={inter.className}>
-        <div<div className="relative flex min-h-screen">
+        <div className="relative flex min-h-screen">
           <div className="w-64 flex-shrink-0">
             <Sidebar />
           </div>
